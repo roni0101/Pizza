@@ -1,0 +1,20 @@
+[
+	{
+		"id":"1",
+		"title":"Pizza Margarita",
+		"price":50,
+		"img":"pizza.jpg"
+	},
+	{
+		"id":"2",
+		"title":"Durum",
+		"price":35,
+		"img":"durum.jpg"
+	},
+	{
+		"id":"3",
+		"title":"Box",
+		"price":30.50,
+		"img":"kebabbox.jpg"
+	}
+]

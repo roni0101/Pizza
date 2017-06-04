@@ -1,0 +1,28 @@
+<div class="container custom-container">
+  <h1 class="text-danger">Food</h1>
+</div>
+
+<div class="container">
+
+
+  <div class="row">
+  
+    <div class="col-sm-6 col-md-4" ng-repeat="item in food">
+      <div class="thumbnail">
+        <img ng-src="assets/images/{{ item.img }}" alt="...">
+        <div class="caption">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.price | currency : 'DKK ' }}</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
